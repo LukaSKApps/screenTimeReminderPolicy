@@ -4,36 +4,6 @@ title: Testing Forms
 permalink: testing-forms/
 ---
 
-# Testing Forms
-
-<form>
-
-  <label for="textInput">Text input:</label>
-  <input type="text" id="textInput" name="textInput" placeholder="Enter text">
-
-  <label for="numberInput">Number input:</label>
-  <input type="number" id="numberInput" name="numberInput" placeholder="123">
-
-  <div class="group-title">Choose one option:</div>
-  <label><input type="radio" name="radioGroup" value="option1"> Option 1</label><br>
-  <label><input type="radio" name="radioGroup" value="option2"> Option 2</label><br>
-  <label><input type="radio" name="radioGroup" value="option3"> Option 3</label>
-
-  <div class="group-title">Select any options:</div>
-  <label><input type="checkbox" name="c1" value="check1"> Checkbox 1</label><br>
-  <label><input type="checkbox" name="c2" value="check2"> Checkbox 2</label><br>
-  <label><input type="checkbox" name="c3" value="check3"> Checkbox 3</label>
-
-  <label class="group-title" for="selectTest">Select an option:</label>
-  <select id="selectTest" name="selectTest">
-    <option value="a">Option A</option>
-    <option value="b">Option B</option>
-    <option value="c">Option C</option>
-  </select>
-
-</form>
-
-
 <style>
   form {
     max-width: 400px;
@@ -71,3 +41,32 @@ permalink: testing-forms/
     font-weight: 600;
   }
 </style>
+
+# Testing Forms
+
+<form>
+
+  <label for="textInput">Text input:</label>
+  <input type="text" id="textInput" name="textInput" placeholder="Enter text">
+
+  <label for="numberInput">Number input:</label>
+  <input type="number" id="numberInput" name="numberInput" placeholder="123">
+
+  <div class="group-title">Choose one option:</div>
+  <label><input type="radio" name="radioGroup" value="option1"> Option 1</label><br>
+  <label><input type="radio" name="radioGroup" value="option2"> Option 2</label><br>
+  <label><input type="radio" name="radioGroup" value="option3"> Option 3</label>
+
+  <div class="group-title">Select any options:</div>
+  <label><input type="checkbox" name="c1" value="check1"> Checkbox 1</label><br>
+  <label><input type="checkbox" name="c2" value="check2"> Checkbox 2</label><br>
+  <label><input type="checkbox" name="c3" value="check3"> Checkbox 3</label>
+
+  <label class="group-title" for="selectTest">Select an option:</label>
+  <select id="selectTest" name="selectTest">
+    <option value="a">Option A</option>
+    <option value="b">Option B</option>
+    <option value="c">Option C</option>
+  </select>
+
+</form>
