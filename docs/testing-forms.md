@@ -124,11 +124,14 @@ permalink: testing-forms/
 
 
 
-  <label class="group-title" for="selectTest">Select an option:</label>
+<div>
+    <label class="group-title" for="selectTest">Select an option:</label>
   <select id="selectTest" name="selectTest">
     <option value="a">Option A</option>
     <option value="b">Option B</option>
     <option value="c">Option C</option>
   </select>
+
+</div>
 
 </form>
