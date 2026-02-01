@@ -30,9 +30,17 @@ permalink: testing-forms/
     font-size: 15px;
   }
 
+  /* radio + checkbox styling */
+  .inline-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+
   input[type="radio"],
   input[type="checkbox"] {
-    margin-right: 6px;
     transform: scale(1.2);
   }
 
@@ -46,30 +54,75 @@ permalink: testing-forms/
 
 <form>
 
-  <label for="textInput">Text input:</label>
+<div>
+    <label for="textInput">Text input:</label>
   <input type="text" id="textInput" name="textInput" placeholder="Enter text">
 
-  <label for="numberInput">Number input:</label>
+</div>
+
+
+<div>
+    <label for="numberInput">Number input:</label>
   <input type="number" id="numberInput" name="numberInput" placeholder="123">
 
+</div>
+
+
   <div class="group-title">Choose one option:</div>
-  <div>
-  <input type="radio" name="radioGroup" value="option1"><label> Option 1</label><br>
-    
-  </div>
-  <div>
-    <input type="radio" name="radioGroup" value="option2">  <label>Option 2</label><br>
+
+<div>
+  
+  <label class="inline-option">
+    Option 1
+    <input type="radio" name="radioGroup" value="option1">
+  </label>
+
   </div>
 
- <div>
- <input type="radio" name="radioGroup" value="option3"> <label> Option 3</label>
-  
- </div>
+  <div>
+    
+
+  <label class="inline-option">
+    Option 2
+    <input type="radio" name="radioGroup" value="option2">
+  </label>
+  </div>
+
+<div>
+  <label class="inline-option">
+    Option 3
+    <input type="radio" name="radioGroup" value="option3">
+  </label>
+</div>
 
   <div class="group-title">Select any options:</div>
-  <input type="checkbox" name="c1" value="check1"><label> Checkbox 1</label><br>
-  <input type="checkbox" name="c2" value="check2"><label> Checkbox 2</label><br>
-  <input type="checkbox" name="c3" value="check3"><label> Checkbox 3</label>
+
+<div>
+    <label class="inline-option">
+    Checkbox 1
+    <input type="checkbox" name="c1" value="check1">
+  </label>
+
+</div>
+
+<div>
+    <label class="inline-option">
+    Checkbox 2
+    <input type="checkbox" name="c2" value="check2">
+  </label>
+
+</div>
+
+<div>
+    <label class="inline-option">
+    Checkbox 3
+    <input type="checkbox" name="c3" value="check3">
+  </label>
+</div>
+
+
+
+
 
   <label class="group-title" for="selectTest">Select an option:</label>
   <select id="selectTest" name="selectTest">
