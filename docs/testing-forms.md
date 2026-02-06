@@ -134,4 +134,18 @@ permalink: testing-forms/
 
 </div>
 
+<div>
+  <button type="reset" style="
+    padding: 10px 16px;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+  ">
+    Reset form
+  </button>
+</div>
+
 </form>
