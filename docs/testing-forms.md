@@ -149,3 +149,47 @@ permalink: testing-forms/
 </div>
 
 </form>
+
+
+
+
+<div style="margin-top: 40px;">
+  <h2>Tabuľkový formulár</h2>
+  <form>
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th style="border: 1px solid #ccc; padding: 8px;">Meno</th>
+          <th style="border: 1px solid #ccc; padding: 8px;">Test 1</th>
+          <th style="border: 1px solid #ccc; padding: 8px;">Test 2</th>
+          <th style="border: 1px solid #ccc; padding: 8px;">Test 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;">Ján</td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="jan_test1" /></td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="jan_test2" /></td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="jan_test3" /></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;">Eva</td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="eva_test1" /></td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="eva_test2" /></td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="eva_test3" /></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;">Peter</td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="peter_test1" /></td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="peter_test2" /></td>
+          <td style="border: 1px solid #ccc; padding: 8px;"><input type="number" name="peter_test3" /></td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="margin-top: 20px;">
+      <button type="submit" style="padding: 10px 16px; background: #4CAF50; color: white; border: none; border-radius: 6px; font-size: 15px; cursor: pointer;">
+        Odoslať výsledky
+      </button>
+    </div>
+  </form>
+</div>
