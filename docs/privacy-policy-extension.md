@@ -24,9 +24,9 @@ The Extension itself does **not collect, store, or transmit personal data** to t
 
 ## Payments
 
-If you purchase premium features, payments are processed through a third-party service, :contentReference[oaicite:0]{index=0}.
+If you purchase premium features, payments are processed through a third-party service, ExtensionPay.
 
-ExtensionPay uses :contentReference[oaicite:1]{index=1} to securely process transactions.
+ExtensionPay uses Stripe to securely process transactions.
 
 When you make a purchase, personal data such as your email address and payment information may be collected and processed by ExtensionPay and Stripe in accordance with their respective privacy policies.
 
@@ -39,6 +39,7 @@ The developer may have access to limited information (such as your email address
 - Managing access to premium features  
 
 For more information, please review the Privacy Policies of ExtensionPay and Stripe on their official websites.
+
 
 ---
 
