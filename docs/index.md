@@ -8,4 +8,5 @@ title: Screen Time Reminder
 - 📄 [Privacy Policy](privacy-policy/)
 - 📄 [Privacy Policy File Form Filler](privacy-policy-extension/)
 - 📄 [Privacy Policy Did you know](did-you-know-privacy-policy/)
-- 📄 [Testing Froms](testing-forms/)
+- 📄 [Testing Forms](testing-forms/)
+- 📄 [Testing Forms 2](testing-forms2/)
