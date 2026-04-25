@@ -150,9 +150,9 @@ permalink: testing-forms2/
       <thead>
         <tr>
           <th style="border: 1px solid #ccc; padding: 8px;">Name</th>
-          <th style="border: 1px solid #ccc; padding: 8px;">Test 1</th>
-          <th style="border: 1px solid #ccc; padding: 8px;">Test 2</th>
-          <th style="border: 1px solid #ccc; padding: 8px;">Test 3</th>
+          <th style="border: 1px solid #ccc; padding: 8px;">Exam 1</th>
+          <th style="border: 1px solid #ccc; padding: 8px;">Exam 2</th>
+          <th style="border: 1px solid #ccc; padding: 8px;">Exam 3</th>
         </tr>
       </thead>
       <tbody>
