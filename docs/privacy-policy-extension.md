@@ -4,21 +4,37 @@ title: Privacy Policy
 permalink: privacy-policy-extension/
 ---
 
-# Privacy Policy for File Form Filler
+# Privacy Policy for File Form Filler and AI Form Filler with File
 
-**Effective date:** February 27, 2026
+**Effective date:** August 10, 2026
 
-This Privacy Policy explains how File Form Filler (the "Extension") handles information.
+This Privacy Policy explains how **File Form Filler** and **AI Form Filler with File** (collectively, the "Extensions"), developed by [tvoje meno / s.r.o.], handle information.
 
-The Extension itself does **not collect, store, or transmit personal data** to the developer. It operates locally in your browser.
+The Extensions operate locally in your browser. They do **not collect, store, or transmit personal data** to the developer.
 
 ---
 
 ## Summary
 
-- The Extension does **not collect or transmit personal data** to the developer.
-- The Extension does **not use analytics or advertising services**.
+- The Extensions do **not collect or transmit personal data** to the developer.
+- The Extensions do **not use analytics or advertising services**.
+- Form data and automation actions are processed **locally, on your device**.
 - Payments for premium features are handled by third-party providers (see below).
+
+---
+
+## How the Extensions Work With Page Content
+
+To fill a web form, the Extensions read the form fields on the page you are using them on, and insert data from the file you provide (Excel or CSV).
+
+**AI Form Filler with File** additionally supports user-configured automation steps, such as clicking a button or typing text into a field, after the form is filled.
+
+This processing:
+
+- Happens entirely **locally, in your browser**
+- Is limited to the **active page you explicitly run the Extension on**
+- Is **not transmitted to the developer or any third party**
+- Is not stored beyond what's needed to perform the action, except for the automation step configuration you choose to save (see "Local Data Storage" below)
 
 ---
 
@@ -40,14 +56,14 @@ The developer may have access to limited information (such as your email address
 
 For more information, please review the Privacy Policies of ExtensionPay and Stripe on their official websites.
 
-
 ---
 
 ## Local Data Storage
 
-The Extension may store user preferences and settings locally using your browser’s storage APIs.
+The Extensions may store user preferences, settings, and automation step configurations locally using your browser's storage APIs.
 
 This data:
+
 - Remains on your device
 - Is not transmitted to the developer
 - Can be removed by clearing your browser storage or uninstalling the Extension
@@ -78,7 +94,7 @@ To exercise these rights, please contact the developer using the information bel
 
 The developer does not store personal data.
 
-Any local data stored by the Extension remains on your device until you remove it manually or uninstall the Extension.
+Any local data stored by the Extensions remains on your device until you remove it manually or uninstall the Extension.
 
 ---
 
