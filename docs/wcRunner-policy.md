@@ -60,6 +60,6 @@ I may update this Privacy Policy from time to time. When I do, I will update the
 ---
 
 ## Contact
-If you have questions about privacy or this Policy, contact me here: csv.filler@gmail.com
+If you have questions about privacy or this Policy, contact me here: 
 
-**Email:** [DOPLŇ EMAIL]
+**Email:** csv.filler@gmail.com
