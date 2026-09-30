@@ -11,4 +11,5 @@ title: Screen Time Reminder
 - 📄 [Privacy Policy Did you know](did-you-know-privacy-policy/)
 - 📄 [Testing Forms](testing-forms/)
 - 📄 [Testing Forms 2](testing-forms2/)
+- 📄 [Formly Policy](privacy-policy-formly/)
 
